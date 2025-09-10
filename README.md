@@ -18,9 +18,10 @@ This work advances CLIP for person representation learning through synergistic i
 
 we utilize the [COYO700M](https://github.com/kakaobrain/coyo-dataset) dataset, a large-scale dataset that contains 747M image-text pairs collected from CommonCrawl, as our web-crawled images source. The following is the details of person-centric image filtering and synthetic caption generation pipeline for constructing our WebPerson dataset.
 
-<div style="text-align: center;">
-    <img src="figure/fig1.png" alt="Our Proposed Pipeline" width="60%"/>
-</div>
+
+<center>
+    <img src="figure/fig1.png" alt="Our Proposed Dataset Pipeline" width="50%"/>
+</center>
 
 ## WebPerson Dataset
 The WebPerson dataset can be downloaded [here](https://huggingface.co/datasets/Kaichengalex/WebPerson-5M), which includes both 5M and 1M scales. Both the images and their corresponding textual descriptions are available from this source.
